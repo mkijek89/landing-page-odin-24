@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header, .top, .footer {
+    background-color: #1F2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.call-content {
+    background-color: #3882F6 ;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882F6 ;
+    color: #f9faf8;
+    border-color: #f9faf8;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 6px 24px;
+    font-weight: 700;
+}
+
+.footer {
+    color: #f9faf8;
+}
+
+h1, .logo-text  {
+    color: #f9faf8;
+}
+
+ul, .top-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    
+    
+}
