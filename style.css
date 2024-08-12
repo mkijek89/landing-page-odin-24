@@ -2,16 +2,43 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
-.header, .top, .footer {
+.top, .footer {
     background-color: #1F2937;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 100px;
+    
+}
 
+.top{
+    display: flex;
+    /*height: 450px;*/
+    flex-direction: column;
+    flex: 1;
+    padding: 0 400px;
+    padding-bottom: 100px;
+}
+.top-content {
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.top-image {
+    display: flex;
+    background-color: #70696d;
+    min-width: 550px;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
@@ -29,8 +56,9 @@ button {
     border-color: #f9faf8;
     border-radius: 5px;
     border-style: solid;
-    padding: 6px 24px;
+    padding: 8px 32px;
     font-weight: 700;
+    font-size: 18px;
 }
 
 .footer {
@@ -39,6 +67,18 @@ button {
 
 h1, .logo-text  {
     color: #f9faf8;
+    
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 6px;
+    margin-top: 8px;
+}
+
+.top-text {
+    margin-top: 6px;
 }
 
 ul, .top-text {
@@ -52,4 +92,8 @@ ul {
     gap: 16px;
     
     
+}
+
+.top-btn {
+    border-style: none;
 }
