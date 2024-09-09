@@ -97,3 +97,33 @@ ul {
 .top-btn {
     border-style: none;
 }
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card p {
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+.small-image {
+    border-style: solid;
+    border-color: #3882F6;
+    width: 100px;
+    height: 100px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cards-content {
+    ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
