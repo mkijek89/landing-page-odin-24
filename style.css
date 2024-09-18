@@ -74,9 +74,7 @@ ul, .top-text {
 ul {
     display: flex;
     list-style: none;
-    gap: 16px;
-    
-    
+    gap: 16px;    
 }
 
 .top-btn {
@@ -166,9 +164,6 @@ button {
     font-size: 18px;
 }
 
-.call {
-
-}
 
 .call-content {
     display: flex;
